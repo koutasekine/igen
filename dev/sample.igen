@@ -1,0 +1,196 @@
+theme: 学内の落とし物を減らす
+author: 青木
+
+// 発散: マンダラート(中心はテーマ)
+- 落とし物を写真で登録する
+  by: 青木
+  from: mandala
+  group: 探す手間を減らす::写真で探す
+  who: 落とし物をした学生
+  what: 拾った物の写真と拾った場所を登録する
+  why: 学生課の窓口に行かないと探せない
+  when: 落とし物に気づいたとき
+  where: 全キャンパス
+  how: スマホで開ける Web ページ
+  rank: 探す 2
+  score: 学内の設備だけで作れる ok
+  score: 探す手間が減る 4
+  score: 運用の手間が少ない 3
+  decision: backup
+  reason: 写真の登録を拾った人に頼む必要がある
+- 教室ごとに落とし物ボックスを置く
+  by: 井上
+  from: mandala
+  group: 届ける手間を減らす
+  decision: drop
+  reason: 置き場所の管理が増える
+- 持ち物に名前シールを貼る
+  by: 上田
+  from: mandala
+  group: 落とさない工夫
+  decision: drop
+  reason: 学生に強制できない
+- 退室前に忘れ物を知らせる放送
+  by: 青木
+  from: mandala
+  group: 落とさない工夫
+  rank: 落とさない 1
+- 学生証にタグを付ける
+  by: 井上
+  from: mandala
+  group: 落とさない工夫
+  rank: 落とさない 2
+  pos: 費用と効果 4 2
+  score: 学内の設備だけで作れる ng
+- 拾った人にポイントを付ける
+  by: 上田
+  from: mandala
+  group: 届ける手間を減らす
+  rank: 届ける 2
+- 落とし物の一覧を掲示板に出す
+  by: 青木
+  from: mandala
+  group: 探す手間を減らす
+  rank: 探す 3
+  pos: 費用と効果 -4 1
+  score: 学内の設備だけで作れる ok
+  score: 探す手間が減る 2
+  score: 運用の手間が少ない 4
+  decision: backup
+  reason: すぐ始められるが、見に行く手間は残る
+- 届け先を学内で 1 か所にまとめる
+  by: 井上
+  from: mandala
+  group: 届ける手間を減らす
+  rank: 届ける 1
+
+// 発散: SCAMPER(対象は「落とし物を写真で登録する」)
+- 利用者の投稿で落とし物を共有する
+  by: 上田
+  from: scamper 代用する
+  from: 落とし物を写真で登録する
+  group: 探す手間を減らす::写真で探す
+- 写真に拾った場所の地図を付ける
+  by: 井上
+  from: scamper 組み合わせる
+  from: 落とし物を写真で登録する
+  group: 探す手間を減らす::写真で探す
+
+// 発散: 蜂の巣ノート・マトリックス法・オズボーン・TRIZ・シックスハット
+- 落とし物の通知をメールで送る
+  by: 上田
+  from: honeycomb
+  group: 探す手間を減らす
+- 学生証の番号で持ち主を探す
+  by: 上田
+  from: honeycomb
+  from: 落とし物の通知をメールで送る
+  group: 届ける手間を減らす
+- 図書館のカウンターで一時預かりする
+  by: 井上
+  from: matrix 学生 × 図書館
+  group: 届ける手間を減らす
+- 落とし物の一覧を学内アプリにも出す
+  by: 青木
+  from: osborn 転用
+  from: 落とし物の一覧を掲示板に出す
+  group: 探す手間を減らす
+- 拾った場所に QR コードの札を置く
+  by: 井上
+  from: triz 10
+  group: 届ける手間を減らす
+- 写真に個人情報が写り込まないよう注意書きを出す
+  by: 青木
+  from: sixhats 黒
+  from: 落とし物を写真で登録する
+  group: 探す手間を減らす::写真で探す
+
+// 発散: 欠点列挙法(対象は「落とし物の一覧を掲示板に出す」)・希望点列挙法・特性列挙法
+- 掲示板まで見に行かないと分からない
+  by: 井上
+  from: defects 欠点
+  from: 落とし物の一覧を掲示板に出す
+- 掲示の更新を学内アプリで知らせる
+  by: 井上
+  from: defects 改善案
+  from: 掲示板まで見に行かないと分からない
+  group: 探す手間を減らす
+- 夜の授業の後でも受け取りたい
+  by: 上田
+  from: wishes 希望点
+- 夜は守衛室で受け取れるようにする
+  by: 上田
+  from: wishes 案
+  from: 夜の授業の後でも受け取りたい
+  group: 届ける手間を減らす
+- 保管場所が学生課の 1 か所だけ
+  by: 青木
+  from: attributes 名詞的
+- 各棟の入口に保管棚を置く
+  by: 青木
+  from: attributes 改善案
+  from: 保管場所が学生課の 1 か所だけ
+  group: 届ける手間を減らす
+
+// 収束: KJ 法で 2 つの案を組み合わせた
+- 写真と地図で探せる落とし物ページ
+  by: 青木
+  from: kj
+  from: 落とし物を写真で登録する
+  from: 写真に拾った場所の地図を付ける
+  group: 探す手間を減らす::写真で探す
+  who: 落とし物をした学生と、拾った学生
+  what: 拾った物の写真と地図の位置を載せた一覧を見られる
+  why: 窓口に行かずに、どこで落としたかの見当も付けたい
+  when: 落とし物に気づいたとき、拾ったとき
+  where: 全キャンパス
+  how: 学内の Web ページ。登録は拾った人がスマホで行う
+  rank: 探す 1
+  pos: 費用と効果 -2 4
+  scene: 昼休みに財布がないことに気づく
+  scene: スマホで落とし物ページを開き、写真の一覧から財布を見つける
+  scene: 地図で拾われた場所を見て、届けられた窓口を確かめる
+  scene: 窓口で学生証を見せて受け取る
+  score: 学内の設備だけで作れる ok
+  score: 探す手間が減る 5
+  score: 運用の手間が少ない 3
+  decision: adopt
+  reason: 探す手間と届ける手間の両方を減らせる
+
+matrix: 落とした人 × 場所
+  row: 学生
+  row: 教員
+  col: 教室
+  col: 図書館
+
+group: 探す手間を減らす
+  note: 窓口に行かずに探したいという声が多い
+group: 届ける手間を減らす
+  note: 拾った人が届け先を知らない
+  cause: 探す手間を減らす
+group: 落とさない工夫
+  note: 落とす数そのものを減らす
+  relate: 探す手間を減らす
+
+sevencross: 困りごとの種類
+  class: 探す
+  class: 届ける
+  class: 落とさない
+
+positioning: 費用と効果
+  x: 費用が安い .. 費用が高い
+  y: 効果が小さい .. 効果が大きい
+
+research: ほかの大学の落とし物検索ページ
+  url: https://example.com/lost-and-found
+  for: 写真と地図で探せる落とし物ページ
+  diff: 写真はあるが、拾った場所の地図がない
+  note: 登録は職員だけが行っている
+
+must: 学内の設備だけで作れる
+criterion: 探す手間が減る
+  weight: 2
+criterion: 運用の手間が少ない
+
+summary: 落とし物は「探す手間」と「届ける手間」が大きく、届く物が増えると探しやすくなる。
+summary: 写真と地図で探せる落とし物ページを採用し、掲示板と写真の登録を代替とする。

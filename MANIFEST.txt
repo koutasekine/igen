@@ -1,0 +1,15 @@
+# アイディア生成(igen)版 0.6(公開用。仕様書の 10 章「未決事項」を削った)。先に渡した igen_v0.6.zip を置き換える。リポジトリ igen のルートに展開する。すべて投入可。
+# 前の igen_v0.6.zip から変えたのは docs/spec.md だけ。そのほかは同じ(リポジトリ全体を入れてある)。
+102830f21bb3b59641ef149c39330085  index.html
+5ec64f26876e09835b1e5e225c805086  LICENSE
+05dbc1d5f1ea3768456684aeaa338d3c  README.md
+6b9c2de9cd9e7dcdaba8528e7072557b  docs/spec.md
+99d83506f3d4c449f0fd13929333425c  docs/prompt_for_ai.md
+b6a2412aa730dc827a55f96ef6e1bf0f  dev/build.py
+fb94f133724da1b53ecd70a013e73bf8  dev/core.js
+b9791cf0ba14b205814a725579ba7184  dev/ui.js
+5798e7d1f392c4548edb5a75586c1484  dev/shell.html
+11167869447d4e2610c4ae528196dcc6  dev/help.html
+d051fe2d87303ed9123a797fd443a1bc  dev/sample.igen
+c98fdbaeaba3e7c860530e33925c4b06  dev/test.js
+4e307f7806d1f2c9cf5c409ae34bcdae  dev/ui_check.py
